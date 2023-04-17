@@ -64,7 +64,7 @@ class BinarySearchTree {
       }
 
       if (node.data === data) {
-        return data;
+        return node;
       }
 
       return data < node.data ? 
